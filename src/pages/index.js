@@ -11,6 +11,10 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <div> 
      <NavBar />
+     <div className = "main-heading">
+       <h1>Lorem ipsum dolor sit amet</h1>
+       <h2>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h2>
+     </div>
   </div>
 )
 
