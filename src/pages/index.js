@@ -9,6 +9,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
+  <div>
   <div className="index-page-container">
     <SEO />
     <NavBar />
@@ -18,6 +19,23 @@ const IndexPage = () => (
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
       </h2>
     </div>
+  </div>
+  <div className="project-list-1">
+  <div className="box1">
+
+</div>
+<div className="box2">
+  
+</div>
+  </div>
+  <div className="project-list-2">
+  <div className="box3">
+
+</div>
+<div className="box4">
+  
+</div>
+  </div>
   </div>
 )
 
