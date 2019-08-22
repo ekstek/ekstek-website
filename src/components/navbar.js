@@ -2,6 +2,7 @@ import React from 'react'
 import {Navbar} from 'react-bootstrap'
 import {Nav} from 'react-bootstrap'
 import logo from '../images/logo.png'
+import '../styles/navbar.css'
 
 const NavBar = () => (
     <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
@@ -16,7 +17,7 @@ const NavBar = () => (
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto justify-content-end">
+    <Nav>
       <Nav.Link href="#features">Home</Nav.Link>
       <Nav.Link href="#pricing">About</Nav.Link>
       <Nav.Link href="#deets">Team</Nav.Link>

@@ -2,9 +2,15 @@ html, body {
     background-color: #f7f9fa;
 }
 
-.main-heading {
-    min-height: 500px;
+.index-page-container {
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-heading {
+    display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-content: center;
