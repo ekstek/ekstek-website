@@ -7,6 +7,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Fade from 'react-reveal/Fade'
 
 const IndexPage = () => (
   <div>
@@ -21,20 +22,28 @@ const IndexPage = () => (
     </div>
   </div>
   <div className="project-list-1">
+    <Fade left>
   <div className="box1">
 
 </div>
+</Fade>
+<Fade right>
 <div className="box2">
   
 </div>
+</Fade>
   </div>
   <div className="project-list-2">
+    <Fade left>
   <div className="box3">
 
 </div>
+</Fade>
+<Fade right>
 <div className="box4">
   
 </div>
+</Fade>
   </div>
   </div>
 )
