@@ -31,7 +31,7 @@ const IndexPage = () => (
     <i class="fas fa-laptop-code fa-4x"></i>
     <div style={{marginTop: '35px', textAlign: 'center'}}>
     <h1>Full Stack Development</h1>
-    <h2>Developing end to end web applications</h2>
+    <p>Developing end to end web applications</p>
     </div>
     </div>
 </div>
@@ -42,7 +42,7 @@ const IndexPage = () => (
 <i class="fab fa-js-square fa-4x"></i>
 <div style={{marginTop: '35px', textAlign: 'center'}}>
     <h1>Javascript Mastery</h1>
-    <h2>Transitioning towards modern and stable Javascript frameworks</h2>
+    <p>Transitioning towards modern and stable Javascript frameworks</p>
     </div>
     </div>
 </div>
@@ -55,7 +55,7 @@ const IndexPage = () => (
   <i class="fab fa-aws fa-4x"></i>
   <div style={{marginTop: '35px', textAlign: 'center'}}>
     <h1>Cloud Solutions</h1>
-    <h2>Providing cloud solutions based on AWS</h2>
+    <p>Providing cloud solutions based on Amazon Web Services</p>
     </div>
     </div>
 </div>
@@ -66,7 +66,7 @@ const IndexPage = () => (
 <i class="fas fa-brain fa-4x"></i>
 <div style={{marginTop: '35px', textAlign: 'center'}}>
     <h1>ERP Solutions</h1>
-    <h2>Enterprise Resource Planning solutions based on your requirements</h2>
+    <p>Enterprise Resource Planning solutions based on your requirements</p>
     </div>
     </div>
 </div>
