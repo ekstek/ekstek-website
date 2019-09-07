@@ -1,6 +1,5 @@
 html, body {
     background-color: #DFE0E2;
-    font-family: 'Source Serif Pro', serif;
 }
 
 .index-page-container {
@@ -18,7 +17,32 @@ html, body {
     align-content: center;
     justify-items: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
+    padding: 15px;
+}
+
+.main-heading h1 h2 {
+    color: #303942;
+}
+
+.main-heading h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.main-heading h2 {
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.what-we-do {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .project-list-1 {
@@ -30,15 +54,18 @@ html, body {
     flex: 1;
     height: 400px;
     width: 100%;
-    background-color: #273E47;
-    color: #e9ecef;
+    background-color: #303841;
+    color: #e2e2e2;
+    padding: 10px;
 }
 
 .box2 {
     flex: 1;
     height: 400px;
     width: 100%;
-    background-color: #D8973C;
+    background-color: #C13447;
+    color: #e2e2e2;
+    padding: 10px;
 }
 
 .project-list-2 {
@@ -50,14 +77,17 @@ html, body {
     flex: 1;
     height: 400px;
     width: 100%;
-    background-color: #534D41;
-    color: #e9ecef;
+    background-color: #666766;
+    color: #e2e2e2;
+    padding: 10px;
 }
 .box4 {
     flex: 1;
     height: 400px;
     width: 100%;
-    background-color: #aaaaaa;
+    background-color: #3e4e59;
+    color: #e2e2e2;
+    padding: 10px;
 }
 
 .box-content {
@@ -67,10 +97,16 @@ html, body {
     height: 100%;
     justify-content: center;
     box-shadow: 0 0 11px rgba(33,33,33,.2);
+    padding: 10px;
 }
 
 .box-content p {
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-content h1 {
+    font-family: 'Source Serif Pro', serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -83,12 +119,16 @@ html, body {
     .box1 {
         height: 100%;
         width: 100%;
-        background-color: #273E47;
+        background-color: #303841;
+        color: #e2e2e2;
+        padding: 10px;
     }
     .box2 {
         height: 100%;
         width: 100%;
-        background-color: #D8973C;
+        background-color: #C13447;
+        color: #e2e2e2;
+        padding: 10px;
     }
     .project-list-2 {
         display: flex;
@@ -99,12 +139,16 @@ html, body {
     .box3 {
         height: 100%;
         width: 100%;
-        background-color: #534D41;
+        background-color: #666766;
+        color: #e2e2e2;
+        padding: 10px;
     }
     .box4 {
         height: 100%;
         width: 100%;
-        background-color: #aaaaaa;
+        background-color: #3e4e59;
+        color: #e2e2e2;
+        padding: 10px;
     }
     .box-content {
         display: flex;

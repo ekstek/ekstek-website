@@ -17,16 +17,10 @@ const IndexPage = () => (
       <div className="main-heading">
         <h1>Modern Software Development</h1>
         <h2>
-          Solving your problems and challenges with the best possible solution
+        Delivering web services consistently and rapidly to businesses all around the globe
         </h2>
       </div>
-      <div
-        style={{
-          textAlign: "center",
-          marginTop: "10px",
-          marginBottom: "40px",
-          color: "black",
-        }}
+      <div className = "what-we-do"
       >
         <h1>What we do</h1>
       </div>
@@ -38,7 +32,7 @@ const IndexPage = () => (
             <i class="fas fa-laptop-code fa-4x"></i>
             <div style={{ marginTop: "35px", textAlign: "center" }}>
               <h1>Full Stack Development</h1>
-              <p>Developing end to end web applications</p>
+              <p>Developing end to end web applications to empower businesses from various industries</p>
             </div>
           </div>
         </div>
@@ -46,11 +40,11 @@ const IndexPage = () => (
       <Fade right>
         <div className="box2">
           <div className="box-content">
-            <i class="fab fa-js-square fa-4x"></i>
+          <i class="fas fa-paint-brush fa-4x"></i>
             <div style={{ marginTop: "35px", textAlign: "center" }}>
-              <h1>Javascript Mastery</h1>
+              <h1>UI/UX & Creativity</h1>
               <p>
-                Transitioning towards modern and stable Javascript frameworks
+              Working with professional creatives to create the best possible user experiences
               </p>
             </div>
           </div>
@@ -64,7 +58,7 @@ const IndexPage = () => (
             <i class="fab fa-aws fa-4x"></i>
             <div style={{ marginTop: "35px", textAlign: "center" }}>
               <h1>Cloud Solutions</h1>
-              <p>Providing cloud solutions based on Amazon Web Services</p>
+              <p>Providing cloud solutions to minimize upfront IT infrastructure costs, while increasing productivity, performance and agility for organizations.</p>
             </div>
           </div>
         </div>
@@ -76,8 +70,7 @@ const IndexPage = () => (
             <div style={{ marginTop: "35px", textAlign: "center" }}>
               <h1>ERP Solutions</h1>
               <p>
-                Enterprise Resource Planning solutions based on your
-                requirements
+              Development of ERP and CRM software to streamline company procedures and resource management.
               </p>
             </div>
           </div>

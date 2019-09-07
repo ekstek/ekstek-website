@@ -75,7 +75,7 @@ function SEO({ description, lang, meta, title }) {
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"
       />
-      <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Serif+Pro&display=swap" rel="stylesheet"></link>
       <script src="https://kit.fontawesome.com/59be12bff9.js"></script>
     </Helmet>
   )
