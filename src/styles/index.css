@@ -1,5 +1,6 @@
 html, body {
     background-color: #DFE0E2;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .index-page-container {
@@ -75,12 +76,12 @@ html, body {
     }
     
     .box1 {
-        height: 400px;
+        height: 100%;
         width: 100%;
         background-color: #273E47;
     }
     .box2 {
-        height: 400px;
+        height: 100%;
         width: 100%;
         background-color: #D8973C;
     }
@@ -91,12 +92,12 @@ html, body {
     }
     
     .box3 {
-        height: 400px;
+        height: 100%;
         width: 100%;
         background-color: #534D41;
     }
     .box4 {
-        height: 400px;
+        height: 100%;
         width: 100%;
         background-color: #aaaaaa;
     }
