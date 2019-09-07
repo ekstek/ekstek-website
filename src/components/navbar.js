@@ -18,10 +18,10 @@ const NavBar = () => (
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav>
-      <Nav.Link href="#features">Home</Nav.Link>
-      <Nav.Link href="#pricing">About</Nav.Link>
-      <Nav.Link href="#deets">Team</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
+      <Nav.Link href="#">Home</Nav.Link>
+      <Nav.Link href="#">About</Nav.Link>
+      <Nav.Link href="#">Team</Nav.Link>
+      <Nav.Link eventKey={2} href="#">
         Contact
       </Nav.Link>
     </Nav>

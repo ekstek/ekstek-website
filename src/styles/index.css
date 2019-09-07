@@ -6,7 +6,7 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #DFE0E2;
+    background: linear-gradient(180deg, rgba(223,224,226,1) 25%, rgba(255,255,255,1) 66%);
 }
 
 .main-heading {
@@ -27,14 +27,16 @@ html, body {
 .box1 {
     flex: 1;
     height: 400px;
-    width: 100px;
-    background-color: #071013;
+    width: 100%;
+    background-color: #273E47;
+    color: #e9ecef;
 }
+
 .box2 {
-    flex: 2;
+    flex: 1;
     height: 400px;
-    width: 100px;
-    background-color: #b7999c;
+    width: 100%;
+    background-color: #D8973C;
 }
 
 .project-list-2 {
@@ -43,14 +45,85 @@ html, body {
 }
 
 .box3 {
-    flex: 2;
+    flex: 1;
     height: 400px;
-    width: 100px;
-    background-color: #cc5a71;
+    width: 100%;
+    background-color: #534D41;
+    color: #e9ecef;
 }
 .box4 {
     flex: 1;
     height: 400px;
-    width: 100px;
+    width: 100%;
     background-color: #aaaaaa;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .project-list-1 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .box1 {
+        height: 400px;
+        width: 100%;
+        background-color: #071013;
+    }
+    .box2 {
+        height: 400px;
+        width: 100%;
+        background-color: #b7999c;
+    }
+    .project-list-2 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .box3 {
+        height: 400px;
+        width: 100%;
+        background-color: #cc5a71;
+    }
+    .box4 {
+        height: 400px;
+        width: 100%;
+        background-color: #aaaaaa;
+    }
+    .box-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        padding: 50px;
+    }
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    display: flex;
+    justify-content: center;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }

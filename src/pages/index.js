@@ -15,33 +15,60 @@ const IndexPage = () => (
     <SEO />
     <NavBar />
     <div className="main-heading">
-      <h1>Lorem ipsum dolor sit amet</h1>
+      <h1>Modern Software Development</h1>
       <h2>
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        Solving your problems and challenges with the best possible solution
       </h2>
+    </div>
+    <div style={{textAlign: 'center', marginTop: '10px', marginBottom: '40px', color: 'black'}}>
+      <h1>What we do</h1>
     </div>
   </div>
   <div className="project-list-1">
     <Fade left>
   <div className="box1">
-
+    <div className="box-content">
+    <i class="fas fa-laptop-code fa-4x"></i>
+    <div style={{marginTop: '35px', textAlign: 'center'}}>
+    <h1>Full Stack Development</h1>
+    <h2>consectetur adipiscing elit</h2>
+    </div>
+    </div>
 </div>
 </Fade>
 <Fade right>
 <div className="box2">
-  
+<div className="box-content">
+<i class="fab fa-js-square fa-4x"></i>
+<div style={{marginTop: '35px', textAlign: 'center'}}>
+    <h1>Javascript Mastery</h1>
+    <h2>consectetur adipiscing elit</h2>
+    </div>
+    </div>
 </div>
 </Fade>
   </div>
   <div className="project-list-2">
     <Fade left>
   <div className="box3">
-
+  <div className="box-content">
+  <i class="fab fa-aws fa-4x"></i>
+  <div style={{marginTop: '35px', textAlign: 'center'}}>
+    <h1>Cloud Solutions</h1>
+    <h2>consectetur adipiscing elit</h2>
+    </div>
+    </div>
 </div>
 </Fade>
 <Fade right>
 <div className="box4">
-  
+<div className="box-content">
+<i class="fas fa-brain fa-4x"></i>
+<div style={{marginTop: '35px', textAlign: 'center'}}>
+    <h1>ERP Solutions</h1>
+    <h2>consectetur adipiscing elit</h2>
+    </div>
+    </div>
 </div>
 </Fade>
   </div>
