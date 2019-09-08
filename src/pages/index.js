@@ -27,7 +27,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="project-list-1">
-      <Fade left>
+      <Fade big>
         <div className="box1 shadow-effect">
           <div className="box-content">
             <i class="fas fa-laptop-code fa-4x"></i>
@@ -38,7 +38,7 @@ const IndexPage = () => (
           </div>
         </div>
       </Fade>
-      <Fade right>
+      <Fade big>
         <div className="box2">
           <div className="box-content">
           <i class="fas fa-paint-brush fa-4x"></i>
@@ -53,7 +53,7 @@ const IndexPage = () => (
       </Fade>
     </div>
     <div className="project-list-2">
-      <Fade left>
+      <Fade big>
         <div className="box3">
           <div className="box-content">
             <i class="fab fa-aws fa-4x"></i>
@@ -64,7 +64,7 @@ const IndexPage = () => (
           </div>
         </div>
       </Fade>
-      <Fade right>
+      <Fade big>
         <div className="box4">
           <div className="box-content">
             <i class="fas fa-brain fa-4x"></i>

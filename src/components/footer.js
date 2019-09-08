@@ -14,7 +14,6 @@ const Footer = () => (
         alt="ekstek logo"
       />
       <div className="address-details">
-      <p>Building 11-C, Lane 3</p>
       <p>Ittehad Commercial</p>
       <p>Phase-VII</p>
       <p>DHA, Karachi</p>
