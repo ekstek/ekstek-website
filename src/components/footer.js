@@ -23,8 +23,8 @@ const Footer = () => (
             <p>Get Connected</p>
             <div className="connected-icons">
             <a href="mailto:contact@ekstek.io"><i class="fas fa-envelope footer-icon fa-2x"></i></a>
-            <a href="https://www.youtube.com/channel/UC3UwpowzvxhUigHya7VQwfA" target="_blank"><i class="footer-icon fab fa-youtube fa-2x"></i></a>
-            <a href="https://www.facebook.com/ekstek/" target="_blank"><i class="footer-icon fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.youtube.com/channel/UC3UwpowzvxhUigHya7VQwfA" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-youtube fa-2x"></i></a>
+            <a href="https://www.facebook.com/ekstek/" target="_blank" rel="noopener noreferrer"><i class="footer-icon fab fa-facebook-square fa-2x"></i></a>
             </div>
         </div>
         </div>

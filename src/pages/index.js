@@ -2,18 +2,13 @@ import React from "react"
 import "../styles/index.css"
 import NavBar from "../components/navbar"
 import Footer from "../components/footer"
-import Button from "react-bootstrap/Button"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Fade from "react-reveal/Fade"
 
 const IndexPage = () => (
   <div>
     <div className="index-page-container">
-      <SEO />
+      <SEO title="Home"/>
       <NavBar />
       <div className="main-heading">
         <h1>Modern Software Development</h1>

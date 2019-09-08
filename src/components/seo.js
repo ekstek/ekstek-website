@@ -73,7 +73,6 @@ function SEO({ description, lang, meta, title }) {
         { rel: "icon", type: "image/png", sizes: "16x16", href: `${favicon16x16}` }
       ]}
     >
-      <title>Ekstek Software</title>
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
