@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade"
 
 const IndexPage = () => (
   <div>
-    <div className="index-page-container">
+    <div className="index-page-container bg-purple">
       <SEO title="Home"/>
       <NavBar />
       <div className="main-heading">
