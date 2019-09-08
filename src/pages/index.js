@@ -1,6 +1,7 @@
 import React from "react"
 import "../styles/index.css"
 import NavBar from "../components/navbar"
+import Footer from "../components/footer"
 import Button from "react-bootstrap/Button"
 import { Link } from "gatsby"
 
@@ -77,6 +78,7 @@ const IndexPage = () => (
         </div>
       </Fade>
     </div>
+    <Footer />
   </div>
 )
 
