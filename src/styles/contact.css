@@ -12,3 +12,44 @@
     background: -moz-linear-gradient(110deg, #dfe0e2 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #AEAFB1 70%, #7F8082 70%);
     background: linear-gradient(110deg, #dfe0e2 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #AEAFB1 70%, #7F8082 70%);
 }
+
+.contact-page-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-desc-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    color: #303841;
+    padding: 20px;
+}
+
+.contact-desc p:first-of-type {
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.contact-desc p {
+    font-family:'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.contact-info {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info a {
+    color: #313942;
+}
+
+.contact-icon {
+    padding-right: 30px;
+}
