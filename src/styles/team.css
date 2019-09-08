@@ -1,0 +1,6 @@
+.team-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(223,224,226,1) 25%, rgba(255,255,255,1) 66%);
+}

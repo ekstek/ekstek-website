@@ -21,10 +21,8 @@ const NavBar = () => (
     <Nav>
       <Link to="/"><Nav.Link href="/">Home</Nav.Link></Link>
       <Link to="/about/"><Nav.Link href="/about">About</Nav.Link></Link>
-      <Nav.Link href="#">Team</Nav.Link>
-      <Nav.Link eventKey={2} href="#">
-        Contact
-      </Nav.Link>
+      <Link to="/team/"><Nav.Link href="/team">Team</Nav.Link></Link>
+      <Link to="/contact"><Nav.Link href="/contact">Contact</Nav.Link></Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
