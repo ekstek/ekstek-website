@@ -11,6 +11,7 @@
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link:active {
