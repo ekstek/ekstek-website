@@ -10,4 +10,13 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav a:hover {
+    text-decoration: none;
 }
