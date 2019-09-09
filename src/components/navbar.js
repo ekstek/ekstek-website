@@ -22,7 +22,7 @@ const NavBar = () => (
       <Link to="/"><Nav.Link href="/">Home</Nav.Link></Link>
       <Link to="/about/"><Nav.Link href="/about">About</Nav.Link></Link>
       <Link to="/team/"><Nav.Link href="/team">Team</Nav.Link></Link>
-      <Link to="/contact"><Nav.Link href="/contact">Contact</Nav.Link></Link>
+      <Link to="/contact/"><Nav.Link href="/contact">Contact</Nav.Link></Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
